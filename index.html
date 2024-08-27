@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos Exclusivas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Modelos Exclusivas</h1>
+    </header>
+
+    <div class="container">
+        <!-- Modelo 1 -->
+        <div class="model-card">
+            <a href="profiles/perfil1.html">
+                <img src="modelo1.jpg" alt="Modelo 1">
+            </a>
+            <h2>Modelo 1</h2>
+            <p>Biografía breve de la modelo 1.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo1" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo1" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo1" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <!-- Modelo 2 -->
+        <div class="model-card">
+            <a href="profiles/perfil2.html">
+                <img src="modelo2.jpg" alt="Modelo 2">
+            </a>
+            <h2>Modelo 2</h2>
+            <p>Biografía breve de la modelo 2.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo2" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo2" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo2" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <!-- Modelo 3 -->
+        <div class="model-card">
+            <a href="profiles/perfil3.html">
+                <img src="modelo3.jpg" alt="Modelo 3">
+            </a>
+            <h2>Modelo 3</h2>
+            <p>Biografía breve de la modelo 3.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo3" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo3" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo3" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <!-- Modelo 4 -->
+        <div class="model-card">
+            <a href="perfil4.html">
+                <img src="modelo4.jpg" alt="Modelo 4">
+            </a>
+            <h2>Modelo 4</h2>
+            <p>Biografía breve de la modelo 4.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo4" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo4" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo4" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <!-- Modelo 5 -->
+        <div class="model-card">
+            <a href="perfil5.html">
+                <img src="modelo5.jpg" alt="Modelo 5">
+            </a>
+            <h2>Modelo 5</h2>
+            <p>Biografía breve de la modelo 5.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo5" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo5" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo5" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <!-- Modelo 6 -->
+        <div class="model-card">
+            <a href="perfil6.html">
+                <img src="modelo6.jpg" alt="Modelo 6">
+            </a>
+            <h2>Modelo 6</h2>
+            <p>Biografía breve de la modelo 6.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo6" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo6" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo6" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <!-- Modelo 7 -->
+        <div class="model-card">
+            <a href="perfil7.html">
+                <img src="modelo7.jpg" alt="Modelo 7">
+            </a>
+            <h2>Modelo 7</h2>
+            <p>Biografía breve de la modelo 7.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo7" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo7" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo7" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <!-- Modelo 8 -->
+        <div class="model-card">
+            <a href="perfil8.html">
+                <img src="modelo8.jpg" alt="Modelo 8">
+            </a>
+            <h2>Modelo 8</h2>
+            <p>Biografía breve de la modelo 8.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo8" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo8" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo8" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <!-- Modelo 9 -->
+        <div class="model-card">
+            <a href="perfil9.html">
+                <img src="modelo9.jpg" alt="Modelo 9">
+            </a>
+            <h2>Modelo 9</h2>
+            <p>Biografía breve de la modelo 9.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/modelo9" target="_blank">Instagram</a>
+                <a href="https://onlyfans.com/modelo9" target="_blank">OnlyFans</a>
+                <a href="https://twitter.com/modelo9" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Modelos Exclusivas. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('logos/logos.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('logo-container').innerHTML = data;
+                });
+        });
+    </script>
+
+</body>
+</html>
